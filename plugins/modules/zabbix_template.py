@@ -549,17 +549,17 @@ class Template(ZabbixBase):
         update_rules = {
             'applications': {
                 'createMissing': True,
-                'deleteMissing': True
+                'deleteMissing': False
             },
             'discoveryRules': {
                 'createMissing': True,
                 'updateExisting': True,
-                'deleteMissing': True
+                'deleteMissing': False
             },
             'graphs': {
                 'createMissing': True,
                 'updateExisting': True,
-                'deleteMissing': True
+                'deleteMissing': False
             },
             'groups': {
                 'createMissing': True
@@ -567,12 +567,12 @@ class Template(ZabbixBase):
             'httptests': {
                 'createMissing': True,
                 'updateExisting': True,
-                'deleteMissing': True
+                'deleteMissing': False
             },
             'items': {
                 'createMissing': True,
                 'updateExisting': True,
-                'deleteMissing': True
+                'deleteMissing': False
             },
             'templates': {
                 'createMissing': True,
@@ -584,12 +584,12 @@ class Template(ZabbixBase):
             'templateScreens': {
                 'createMissing': True,
                 'updateExisting': True,
-                'deleteMissing': True
+                'deleteMissing': False
             },
             'triggers': {
                 'createMissing': True,
                 'updateExisting': True,
-                'deleteMissing': True
+                'deleteMissing': False
             },
             'valueMaps': {
                 'createMissing': True,
